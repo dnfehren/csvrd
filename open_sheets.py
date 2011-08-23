@@ -10,8 +10,8 @@ import re
 import pprint
 pp = pprint.PrettyPrinter(indent=4)
 
-dbconn = MySQLdb.connect(user='root', 
-                         passwd='virtual',
+dbconn = MySQLdb.connect(user='some_user', 
+                         passwd='some_pw',
                          db='energy_data')
 cur = dbconn.cursor()
 
